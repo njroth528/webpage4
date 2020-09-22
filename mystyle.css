@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  justify-content: center;
+  Background: pink;
+}
+
+#container{
+  position: relative;
+  top:150px;
+  width: 500px;
+
+}
+
+#content-box{
+  background:black;
+  Padding:20px;
+  margin-bottom:20px;
+}
+
+ul{
+  position: relative;
+  list-style-type:  none;
+  padding:0px;
+  display: flex;
+  justify-content: Right;
+  width: 1000px;
+}
+
+a{
+  text-decoration: none;
+  background: white;
+  padding: 15px;
+}
+
+a:hover{
+  background: #e0e0e0;
+}
