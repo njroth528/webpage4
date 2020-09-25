@@ -1,48 +1,75 @@
+/* FONTS *************************************/
+@font-face{
+  font-family:IGOR;
+  src: url(fonts/IGOR-BoldItalic.ttf)
+}
+@font-face{
+  font-family: Courier;
+  src: url(fonts/Courier_Prime/CourierPrime-BoldItalic.ttf)
+}
+/*********************************************/
+
+
+
+
 body{
   display: flex;
   justify-content: center;
   Background: pink;
 }
 
-
+p{
+  justify-content: center;
+  font-family: Courier;
+  height: 50px;
+  width:750px;
+  padding-bottom:50px;
+}
 
 #container{
   position: relative;
-  top:150px;
+  top:50px;
   width: 500px;
-
 }
+
+h1{
+  font-family: IGOR;
+}
+
+
 
 #hero-image {
   display: flex;
   justify-content: center;
-  background: #000;
 }
 
 #hero-image img{
-  width:250px;
-  hight:250px;
+  width:400px;
+  hight:400px;
+  padding: 25px;
 }
 
 #content-box{
   background:black;
   Padding:20px;
   margin-bottom:20px;
+  font-family: Courier;
 }
 
 ul{
   position: relative;
   list-style-type:  none;
-  padding:0px;
+  padding:10px;
   display: flex;
-  justify-content: Right;
-  width: 1000px;
+  justify-content: center;
+  font-family: IGOR;
+  width: 800px
 }
 
 a{
   text-decoration: none;
-  background: white;
-  padding: 15px;
+  padding: 10px;
+
 }
 
 a:hover{
